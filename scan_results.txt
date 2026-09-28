@@ -1,0 +1,552 @@
+Scanning 89 companies; 13 job boards; 0 local parser; 13 skipped — no provider matched via providers
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portal Scan — 2026-09-24
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Companies scanned:     89
+Job boards scanned:    13
+Total jobs found:      7825
+Filtered by title:     6041 removed
+Duplicates:            1271 skipped
+New offers added:      513
+Agent/WebSearch handoff: 13 companies not handled by zero-token providers
+  • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
+  • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
+  • Talkdesk (websearch) — site:talkdesk.com/careers "AI" OR "Solutions Architect" OR "AI Engineer"
+  • Twilio (websearch) — site:twilio.com/company/jobs "AI" OR "Voice" "Solutions" OR "Architect"
+  • Dialpad (websearch) — "dialpad" "AI" "Solutions" OR "Engineer" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com
+  • Gong (websearch) — site:gong.io/careers "AI" OR "Solutions" OR "Architect"
+  • Genesys (websearch) — site:genesys.com/careers "AI" "Solutions Architect" OR "AI Engineer"
+  • Salesforce (websearch) — site:careers.salesforce.com "Forward Deployed" OR "AI Engineer" OR "Agentforce"
+  • Langfuse (websearch) — "langfuse" careers OR jobs "engineer" OR "solutions"
+  • Cognigy (websearch) — "cognigy" careers "AI" OR "Solutions" OR "Engineer"
+  • Make.com (Celonis) (websearch) — site:make.com/en/careers OR "make.com" "engineer" OR "solutions" site:jobs.ashbyhq.com
+  • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
+  • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
+
+🚨 FIX NEEDED: 14 target(s) have been unreachable for 3+ runs:
+   Temporal, RunPod, Ada, Factorial, Black Forest Labs, Sanctuary AI, Clarity AI, Forto, Vinted, Templafy, Runway, Lindy, Tinybird, Travelperk
+   Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
+
+⚠️  8 target(s) unreachable (slug?): iFood, PicPay, Stone Pagamentos, Mercado Livre (MELI), Loft, Loggi, C6 Bank, Take Blip — run: node verify-portals.mjs
+🟡 2 target(s) live but empty: Mistral AI, Lakera
+
+New offers:
+  + Parloa | Junior Accountant, Accounts Payable | Berlin Office
+  + Intercom | Senior Data Scientist - AI Tooling | Dublin, Ireland; London, England
+  + Intercom | Senior Data Scientist - Growth  | Dublin, Ireland; London, England
+  + Intercom | Senior Data Scientist (GTM)  | Dublin, Ireland; London, England
+  + Intercom | Senior Data Scientist - Product Analytics | London, England
+  + Intercom | Senior Machine Learning Scientist | Berlin, Germany
+  + Intercom | Staff Machine Learning Scientist | London, England
+  + Vercel | Partner Solutions Engineer | Hybrid - San Francisco
+  + Vercel | Software Engineer, Agentic Infrastructure | Hybrid - San Francisco, New York City
+  + Vercel | Software Engineer - Data Platform | Remote - United States
+  + Vercel | Software Engineer, Financial Data Platform | Hybrid - San Francisco, New York City
+  + Vercel | Software Engineer, GTM  | Hybrid - San Francisco, New York City
+  + Vercel | Software Engineering Intern - Summer '27 | Hybrid - San Francisco
+  + Vercel | Software Engineering Intern - Winter '27 | Hybrid - San Francisco
+  + Vercel | Software Engineer, Internal Agent  | Hybrid - San Francisco
+  + Vercel | Software Engineer, Platform  | Hybrid - San Francisco, New York City
+  + Anthropic | Accounting, Revenue Internal Controls | San Francisco, CA | Seattle, WA
+  + Anthropic | Copywriter, Developer | San Francisco, CA | New York City, NY
+  + Anthropic | Data Scientist, GTM | New York City, NY; San Francisco, CA | New York City, NY
+  + Anthropic | Data Scientist, Marketing | New York City, NY | Seattle, WA; San Francisco, CA
+  + Anthropic | Data Scientist, Policy | New York City, NY; San Francisco, CA | New York City, NY; Washington, DC
+  + Anthropic | Data Scientist, Product | New York City, NY; San Francisco, CA; Seattle, WA
+  + Anthropic | Data Scientist, Safeguards | New York City, NY; San Francisco, CA; Seattle, WA
+  + Anthropic | Director, US International Tax | San Francisco, CA | New York City, NY | Seattle, WA
+  + Anthropic | Director, US International Tax Planning | San Francisco, CA | New York City, NY | Seattle, WA
+  + Anthropic | Engineering Manager, Cybersecurity Products | San Francisco, CA | New York City, NY
+  + Anthropic | Internal Communications Manager, Tech | San Francisco, CA | Seattle, WA
+  + Anthropic | International Indirect Tax, VAT/GST | Dublin, IE
+  + Anthropic | Lead Data Scientist, Platform Product | New York City, NY | Seattle, WA; San Francisco, CA
+  + Anthropic | Machine Learning Infrastructure Engineer, Safeguards Research | San Francisco, CA | New York City, NY
+  + Anthropic | Marketing Events Manager, International  | London, UK
+  + Anthropic | Partnership Strategy & Operations Lead, International | London, UK
+  + Anthropic | Product Manager, Safe Access | San Francisco, CA | New York City, NY
+  + Anthropic | Product Manager, Safeguards (Account Integrity & Abuse)  | San Francisco, CA | New York City, NY
+  + Anthropic | Product Manager, Safeguards (Generalist)  | San Francisco, CA | New York City, NY
+  + Anthropic | Research Engineer, Cybersecurity RL (Reinforcement Learning) | Zürich, CH
+  + Anthropic | Research Engineer, Machine Learning (Reinforcement Learning) | London, UK
+  + Anthropic | Research Engineer, Machine Learning (RL Velocity) | London, UK
+  + Anthropic | Salesforce Developer, Partnerships | San Francisco, CA | New York City, NY
+  + Anthropic | Software Engineer, Beneficial Deployments  | San Francisco, CA | New York City, NY
+  + Anthropic | Software Engineer, Labs | San Francisco, CA | New York City, NY | Seattle, WA
+  + Anthropic | Software Engineer, Tokens and Prompt Structures | San Francisco, CA | New York City, NY
+  + Anthropic | Solutions Marketing Manager, Cybersecurity | San Francisco, CA; Washington, DC
+  + Anthropic | Staff+ Researcher, Cybersecurity Products | San Francisco, CA
+  + Anthropic | Staff+ Software Engineer, Distributed Systems  | New York City, NY; San Francisco, CA
+  + Anthropic | Staff Software Engineer, GTM AI Engineering  | Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA
+  + Anthropic | Staff+ Software Engineer, Storage + Transfer | San Francisco, CA | New York City, NY
+  + Anthropic | Strategic Partner Development, Product Partnerships - Cybersecurity | San Francisco, CA | New York City, NY
+  + Anthropic | Warehouse and Logistics Manager - International | San Francisco, CA | New York City, NY
+  + Bland AI | Machine Learning Researcher, Audio | San Francisco
+  + Bland AI | Machine Learning Researcher, Multimodal LLMs | San Francisco
+  + Bland AI | Machine Learning Intern | San Francisco
+  + Glean | Founding Forward Deployed Engineer | Remote - US
+  + Glean | Machine Learning Engineer, Assistant Quality | San Francisco, CA
+  + Glean | Machine Learning Engineer, Search Quality | Mountain View, CA
+  + Glean | Product Manager, Core Experience | San Francisco, CA
+  + Glean | Senior Data Scientist, Growth | San Francisco, CA
+  + Deepgram | Senior Data Scientist, Audio | USA | Remote
+  + Deepgram | Research Engineer, Machine Learning Systems | USA | Remote · San Francisco, CA · San Francisco · United States · Ann Arbor, MI
+  + Deepgram | Director, Text-to-Speech Synthesis Research | USA | Remote · San Francisco, CA · San Francisco · United States · Ann Arbor, MI
+  + Deepgram | Staff Product Designer, Conversational AI | San Francisco, CA
+  + Zapier | Automation Strategist, Customer Success | HQ · NAMER · San Francisco · United States
+  + n8n | Sales Data Analyst | Germany · Bosnia · Norway · Estonia · Latvia · Slovenia · Netherlands · Hungary · Portugal · Poland · Serbia · Austria · Montenegro · London Office · London · United Kingdom · Albania · Lithuania · Ireland · Bulgaria · Denmark · Czech Republic · Croatia · Spain · Greece
+  + n8n | Forward Deployed Engineer - US East Coast | Boston · Pennsylvania · United States · New York · Massachusetts · New Jersey
+  + ElevenLabs | Engineering - Internal AI Transformation | United States · Dublin · Ireland · Sofia · Bulgaria · Germany · Portugal · Poland · Warsaw · Sweden · Stockholm · Italy · United Kingdom · Amsterdam · Netherlands · Canada · Berlin
+  + ElevenLabs | Data Scientist - AI Safety | London
+  + Decagon | Agent Data Scientist | San Francisco
+  + Decagon | Solutions Architect, Voice - London | London
+  + Decagon | Engineering Intern (Summer 2027) | San Francisco
+  + Safari AI | Software Engineer, Cloud Infrastructure | North America
+  + Sierra | Software Engineer Intern, Agent (Summer 2027) | San Francisco, CA · New York, NY · New York · United States
+  + Cohere | Senior Full-Stack Engineer, Internal Applications  | Toronto · Canada
+  + Cohere | Lead Data Scientist | United States · Canada
+  + Cohere | Software Engineer Intern (Winter 2027) | Canada · Dubai · United Arab Emirates · London · United Kingdom · United States · San Francisco
+  + Cohere | Research Internship (Winter 2027) | Canada · San Francisco · United States · Europe · European Union · London · United Kingdom · Toronto · Montreal
+  + Cohere | Machine Learning Intern/Co-op  (Winter 2027) | Canada · Europe · European Union · United States · San Francisco · United Kingdom
+  + Cohere | Senior Technical Program Manager, Machine Learning Infrastructure | Canada · Boston · United States · Chicago · New York · Miami · New Jersey · Atlanta · Washington, DC · Ottawa · Montreal
+  + Cohere | Data Scientist, North Insights | United States · San Francisco · Canada · New York · Toronto · Montreal
+  + Cohere | Early Careers & Interns Specialist | San Francisco · Seattle · United States · New York · Toronto · Canada
+  + Cohere | Software Engineer, Security | Toronto · San Francisco · United States · Canada · New York · Montreal
+  + Klue | Program Management Associate, Intern | Vancouver, British Columbia
+  + Klue | Senior Software Engineer, DevOps & Security | Vancouver, British Columbia
+  + Weights & Biases (CoreWeave) | International AP Lead | Dallas, TX
+  + Weights & Biases (CoreWeave) | Principal Software Engineer - Models | San Francisco, CA, Bellevue, WA, Sunnyvale, CA, New York, Livingston, NJ
+  + Weights & Biases (CoreWeave) | Senior Account Solutions Architect | San Francisco, CA
+  + Weights & Biases (CoreWeave) | Senior Machine Learning Engineer, AI Insights | New York, NY 
+  + Weights & Biases (CoreWeave) | Senior Software Engineer, Storage | New York, NY
+  + Weights & Biases (CoreWeave) | Staff Machine Learning Engineer, AI Insights | New York, NY 
+  + Weights & Biases (CoreWeave) | Staff Software Engineer, File & Block Storage | Livingston, NJ / New York, NY / Sunnyvale, CA / Bellevue, WA
+  + Attio | Solutions Engineering Manager | San Francisco
+  + Aleph Alpha | Intern/WS to Chief of Staff (f/m/d) | Heidelberg
+  + DeepL | Senior Information Security Manager (EU Sovereignty) | Munich · Cologne · Germany · Berlin
+  + DeepL | Senior Software Engineer | API Enterprise | London
+  + DeepL | Senior Software Engineer | Full-Stack | Media Translation | London
+  + Semios | Junior Accountant | Vancouver, Canada
+  + Helsing | AI Research Intern (PhD) – 3D Computer Vision | Barcelona; Berlin; London; Munich; Paris
+  + Helsing | Junior Software Engineer  | Berlin; London; Munich
+  + Helsing | Machine Learning Engineer, Detection and Tracking | Washington, DC
+  + Helsing | Team Lead - Training and Mission Success - International | London
+  + Contentful | Senior Software Engineer - Personalization | Berlin, Germany
+  + Retool | Data Scientist | San Francisco
+  + Retool | Software Engineer, Automations | San Francisco
+  + Retool | Software Engineer, Agent Platform | San Francisco · New York
+  + Retool | Software Engineer, Sandbox & Agent Executor | San Francisco · New York
+  + GetYourGuide | Senior Data Scientist, Central Data Products | Berlin
+  + GetYourGuide | Senior Internal Audit Manager | Berlin
+  + GetYourGuide | Staff Data Scientist, Growth Data Products | Berlin
+  + N26 | Information Security Controls Manager - Cloud & AI Governance | Berlin
+  + N26 | Senior Data Engineer - Enablement | Berlin
+  + N26 | Team Lead Non-Financial Risk and Internal Controls | Berlin
+  + N26 | Vendor Management Internship | Madrid
+  + Trade Republic | Accounting Intern | Headquarter
+  + Trade Republic | Brand Strategy Intern - Italian Speaker  | Headquarter
+  + Trade Republic | Influencer Marketing Intern - French Speaker | Headquarter
+  + Trade Republic | Intern - Executive Office | Headquarter
+  + Trade Republic | Intern Influencer & Affiliate Marketing | Headquarter
+  + Trade Republic | Intern Influencer & Affiliate Marketing - Spanish Speaker | Headquarter
+  + Trade Republic | Treasury Intern | Headquarter
+  + SumUp | Brand & Marketing Design Intern | Berlin, Germany
+  + SumUp | Information Security Architect | Sofia, Bulgaria
+  + SumUp | Junior Account Manager (SM) - German | Barcelona, Barcelona, Spain
+  + SumUp | Junior Complaints & Compliance Specialist | Berlin, Germany
+  + SumUp | Junior Credit Management Analyst w/ English | Barcelona, Barcelona, Spain
+  + SumUp | Junior Credit Management Analyst w/ French | Barcelona, Barcelona, Spain
+  + SumUp | Junior Early Growth Specialist CR German | Barcelona, Barcelona, Spain
+  + SumUp | Junior Inbound Sales Representative [Nordics] | London, England, United Kingdom
+  + SumUp | Junior Sales Development Representative (m/w/d) | Cologne, Germany
+  + SumUp | Motion Design Intern - Brand & Marketing | Berlin, Germany
+  + SumUp | Senior Data Scientist/ML Engineer - Financial Crime | Berlin, Germany
+  + SumUp | Senior Internal Auditor | Sofia, Bulgaria
+  + SumUp | Senior IT Internal Auditor  | Dublin, Dublin, Ireland
+  + SumUp | Senior Machine Learning Engineer I | Berlin, Germany
+  + SumUp | Senior Software Engineer, EU Own Acquiring | Sofia, Bulgaria
+  + Hugging Face | Open-Source Machine Learning Engineer - EMEA Remote | Paris, France
+  + Hugging Face | Open-Source Machine Learning Engineer - US Remote | New York, United States
+  + Hugging Face | Senior Machine Learning Engineer, Voice Agents - EMEA Remote | Paris, France
+  + Hugging Face | Senior Open-Source Python Engineer, ML Developer Tools - EMEA Remote | France
+  + Hugging Face | Senior Open-Source Python Engineer, ML Developer Tools - US Remote | United States
+  + Photoroom | Senior People Ops Manager (International) | Paris
+  + Photoroom | Legal Intern | Paris
+  + Palantir | Defensive Security Analyst | Washington, D.C.
+  + Palantir | Deployment Strategist, Internship | Paris, France
+  + Palantir | Deployment Strategist, Internship - US Government | Honolulu, HI
+  + Palantir | Forward Deployed Software Engineer, Internship | Paris, France
+  + Palantir | Forward Deployed Software Engineer, Internship - AUS Government | Sydney, Australia
+  + Palantir | Forward Deployed Software Engineer, Internship - Commercial | Seoul, South Korea
+  + Palantir | Forward Deployed Software Engineer, Internship - Defense Tech | Washington, D.C.
+  + Palantir | Forward Deployed Software Engineer, Internship - France | New York, NY
+  + Palantir | Forward Deployed Software Engineer, Internship - Intel | Washington, D.C.
+  + Palantir | Forward Deployed Software Engineer, Internship - UK Government | London, United Kingdom
+  + Palantir | Forward Deployed Software Engineer, Internship - US Government | Honolulu, HI
+  + Palantir | Information Security Engineer | Seattle, WA
+  + Palantir | Information Security Engineer - Infrastructure Security | New York, NY
+  + Palantir | Information Security Engineer - Insider Risk | New York, NY
+  + Palantir | Information Security Engineer, Internship | New York, NY
+  + Palantir | International Accountant | London, United Kingdom
+  + Palantir | International Tax Manager | Palo Alto, CA
+  + Palantir | Privacy and Civil Liberties Software Engineer, Internship | New York, NY
+  + Palantir | Product Designer, Internship | New York, NY
+  + Palantir | Product Designer, Internship - US Government | New York, NY
+  + Palantir | Software Engineer, Internship | Singapore, Singapore
+  + Palantir | Software Engineer, Internship - Defense Tech | New York, NY
+  + Palantir | Software Engineer, Internship - Infrastructure | New York, NY
+  + Palantir | Software Engineer, Internship - Production Infrastructure | Seattle, WA
+  + Palantir | Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial | Chicago, IL
+  + Palantir | Year at Palantir - Forward Deployed Software Engineer, Internship - USG | Washington, D.C.
+  + Palantir | Year at Palantir - Software Engineer, Internship | New York, NY
+  + Qonto | Collaborateur Comptable - Junior | Paris
+  + Qonto | Internal Audit Manager | Paris
+  + Qonto | Internal Audit Manager - Compliance | Paris
+  + Qonto | Internal Audit Manager - German market | Paris
+  + Qonto | Legal Intern - Commercial | Paris
+  + Qonto | Legal Intern - Corporate and M&A (6 months) | Paris
+  + Qonto | Staff Data Analyst - Compliance | Paris
+  + Qonto | Staff Machine Learning Engineer for AI Engines | Paris
+  + Wayve | Applied Scientist / Machine Learning Engineer | Sunnyvale
+  + Wayve | Applied Scientist/Machine Learning Engineer Gaia | London; Sunnyvale
+  + Wayve | Data Scientist, Data Quality & Provenance | Germany
+  + Wayve | Machine Learning Engineer | Japan
+  + Wayve | Machine Learning Engineer, ADAS | London
+  + Wayve | Machine Learning Engineer, App SW | Sunnyvale
+  + Wayve | Machine Learning Engineer, Compiler | London; Sunnyvale
+  + Wayve | Machine Learning Engineer, Driving Product  | Israel; London; Mountain View
+  + Wayve | Machine Learning Engineering Manager, App SW | Detroit
+  + Wayve | Machine Learning Engineer, Performance Tooling | London; Sunnyvale
+  + Wayve | Machine Learning Engineer (Synthetic Data) | London
+  + Wayve | Machine Learning Manager, App SW | Japan
+  + Wayve | Platform Engineer (SDO) | Sunnyvale
+  + Wayve | Principal Machine Learning Engineer, Geometric Vision | Sunnyvale
+  + Wayve | Senior Data Scientist | Sunnyvale
+  + Wayve | Senior Machine Learning Engineer, AI Performance | London
+  + Wayve | Senior Machine Learning Engineer - AV Core | London
+  + Wayve | Senior Machine Learning Engineer, Search & Index | Sunnyvale
+  + Wayve | Senior Machine Learning Engineer, Vision Models | Sunnyvale
+  + Wayve | Senior Software Engineer - Platform Integration, Robot Software | Sunnyvale
+  + Wayve | Senior Software Engineer - Runtime Platform, Robot Software | Sunnyvale
+  + Wayve | Staff Data Scientist | London; Sunnyvale
+  + Wayve | Staff Machine Learning Engineer - Ops | London
+  + Wayve | Staff Machine Learning Engineer, Vision Models | Sunnyvale
+  + Wayve | Staff Machine Learning Scientist/Engineer | Sunnyvale
+  + Wayve | Staff Machine Learning Software Engineer | Sunnyvale
+  + Wayve | Staff / Senior Machine Learning Engineer, AV Core | Sunnyvale
+  + Wayve | Staff / Senior Machine Learning Engineer, Reinforcement Learning | Sunnyvale
+  + Wayve | Staff Software Engineer, Data Enrichment Platform | London
+  + Wayve | Staff Software Engineer - OS, Robot Software | Sunnyvale
+  + Wayve | Staff Tech Lead Manager, Machine Learning, Vision Models | London
+  + Isomorphic Labs | Research Scientist (Machine Learning), London | London
+  + Isomorphic Labs | Staff Software Engineer (Inference Platform), London | London
+  + PhysicsX | Data Scientist  | New York, United States
+  + PhysicsX | Machine Learning Engineer | San Francisco, CA
+  + PhysicsX | Principal Data Scientist / Algorithm Engineer | Singapore
+  + PhysicsX | Principal Machine Learning Engineer | Singapore
+  + PhysicsX | Principal Machine Learning Infrastructure Engineer  | London, United Kingdom
+  + PhysicsX | Senior Machine Learning Engineer | London, United Kingdom
+  + PhysicsX | Staff Software Engineer, Infrastructure - Python & Kubernetes  | London
+  + Celonis | AI & Management Consulting Intern (Value Engineering - UKI Market) | London, United Kingdom
+  + Celonis | AI Product Manager (Demo) | Madrid, Spain
+  + Celonis | Business Development Representative Sales Intern (Part-Time)  | New York, US, New York
+  + Celonis | Customer Advocacy  & Customer Marketing Graduated Internship (12 months)  | Madrid, Spain
+  + Celonis | Data Scientist | Bangalore, India
+  + Celonis | Field Marketing (DACH Region) Intern | Munich, Germany
+  + Celonis | Intern AI & Management Consulting (Value Engineering) | Paris, France
+  + Celonis | Intern Deployment Engineer - Data & AI | Munich, Germany
+  + Celonis | Intern Global Customer Advocacy | Madrid, Spain
+  + Celonis | Intern Strategic Program Management | Madrid, Spain
+  + Celonis | Intern Technology Consultant - Data & AI | Munich, Germany
+  + Celonis | Intern Technology & Management Consulting (Value Engineering) | Paris, France
+  + Celonis | Senior Software Engineer - Engine Orchestration | Munich, Germany
+  + Celonis | Senior Software Engineer - Query Engine & Database Systems | Munich, Germany
+  + Celonis | Technology & Management Consulting Intern (Value Engineering - UKI Market) | London, United Kingdom
+  + Synthesia | Machine Learning Engineer / ML Engineer - Roleplay Sessions | Remote · UK Remote · United Kingdom
+  + Stability AI | Junior IT Support Engineer | United States 
+  + Faculty | Senior Data Scientist  | UK - Remote
+  + Faculty | Senior Machine Learning Engineer  | UK - Remote
+  + Faculty | Lead Machine Learning Engineer | UK - London
+  + Faculty | Lead Data Scientist  | UK - London
+  + Faculty | Data Scientist  | UK - Remote
+  + Faculty | Machine Learning Engineer  | UK - Remote
+  + Faculty | Principal Data Scientist  | UK - London
+  + Faculty | Principal Machine Learning Engineer | UK - London
+  + Faculty | Senior Data Scientist (Safety)   | UK - London
+  + Lovable | Data Scientist | Stockholm · London · United Kingdom
+  + Lovable | Data Scientist, Product | Stockholm · London · United Kingdom
+  + Lovable | Data Scientist, Agent | Stockholm · London · United Kingdom
+  + Lovable | Data Scientist, Pricing | Stockholm · London · United Kingdom
+  + Lovable | Data Scientist, Growth | London · Stockholm · Sweden
+  + Lovable | Internal Communications Lead | Stockholm
+  + Lovable | Software Engineer, Product (Integration Platform) | Stockholm
+  + Legora | Software Engineer - Platform Team  | Malmö
+  + Legora | Staff Software Engineer - Platform Team  | Malmö
+  + Legora | Senior Platform Engineer  - Platform Team | Malmö
+  + Legora | Senior Data Scientist - Product   | London
+  + Legora | Staff Platform Engineer - Platform Team | Malmö
+  + Legora | Internal Audit Manager  | New York City
+  + Spotify | Data Scientist - Music Mission | New York, NY
+  + Spotify | Data Scientist - Music Promotion | New York, NY
+  + Spotify | Data Scientist, Company Planning & Execution | Stockholm
+  + Spotify | Principal Product Manager - Audio and Media Playback | Stockholm
+  + Spotify | Principal Product Manager - Personalization | London
+  + Spotify | Senior Machine Learning Engineer - Messaging Platform | London
+  + Spotify | Senior Machine Learning Engineer - Policy & Safety | New York, NY
+  + Spotify | Senior Machine Learning Engineer, Personalization, Muse | New York, NY
+  + Spotify | Senior Product Manager - User Platform | London
+  + Spotify | Senior Staff Machine Learning Engineer - Content Platform | New York, NY
+  + Spotify | Staff Data Scientist - Experience | Stockholm
+  + Spotify | Staff Machine Learning Engineer, Home Surfaces | New York, NY
+  + Spotify | Staff Machine Learning Engineer, Personalization | New York, NY
+  + Pleo | Senior Fullstack Data Analyst (Commercial analytics) | United Kingdom · Denmark · Portugal · Spain
+  + Pleo | Senior Data Engineer (Commercial Analytics) | United Kingdom · Denmark · Portugal · Spain
+  + Clay Labs | Data Scientist | San Francisco
+  + Clay Labs | Machine Learning Engineer | San Francisco
+  + Perplexity | Member of Technical Staff (Machine Learning Engineer, Search) | Belgrade · London · United Kingdom · Berlin · Germany
+  + Perplexity | Internship - Search Machine Learning Engineer | Belgrade
+  + Perplexity | Internship - Machine Learning Research Engineer | Berlin
+  + Perplexity | Internship - Search Backend Infra Engineer | Belgrade
+  + Perplexity | Member of Data Staff (Data Scientist) | San Francisco
+  + Perplexity | Member of Technical Staff (Machine Learning Research Engineer) | Berlin
+  + Perplexity | Internal Communications Manager | San Francisco
+  + Perplexity | Member of Technical Staff (Machine Learning Engineer, Ranking Quality - Search) | Belgrade · London · United Kingdom
+  + WorkOS | Data Engineer | United States & Canada
+  + WorkOS | Software Engineer - Infrastructure Security | United States & Canada
+  + Resend | Software Engineer, Backend | Americas
+  + PlanetScale | Software Engineer - Internal Tools | San Francisco Office
+  + Hightouch | Forward Deployed Creative Designer, Email  | Remote, United States
+  + Hightouch | Head of Machine Learning  | Remote (North America)
+  + HelloFresh | Associate Director International Procurement | Berlin, Berlin, Germany
+  + HelloFresh | Category manager Food, International Procurement (all genders) | Amsterdam, North Holland, Netherlands; Berlin, Berlin, Germany; København, Capital RegionDenmark, Denmark; Paris, Paris, France
+  + HelloFresh | Delivery Operations Business Analyst Intern France et Benelux(M/F/X) | Paris, Paris, France
+  + HelloFresh | Editorial Operations Intern (all genders) | Berlin, Berlin, Germany
+  + HelloFresh | Growth Strategy Data Analyst - Intern (M/F/N) | Paris, Paris, France
+  + HelloFresh | International Category Manager - 12 Month Fixed Term Contract | Sydney, New South Wales, Australia
+  + HelloFresh | Junior Content Marketing specialist (f/m/x) | Amsterdam, North Holland, Netherlands
+  + HelloFresh | Junior Cook/Koch (x/f/m) | Berlin, Berlin, Germany
+  + HelloFresh | Junior Facilitair Medewerker (v/m/x) | Bleiswijk, South Holland, Netherlands
+  + HelloFresh | Junior Facility Employee (f/m/x) | Bleiswijk, South Holland, Netherlands
+  + HelloFresh |  Junior Food Stylist - (x/f/m)  | Berlin, Berlin, Germany
+  + HelloFresh | Junior Growth Manager | London, England, United Kingdom
+  + HelloFresh | Junior Maintenance Engineer | Derby, England, United Kingdom
+  + HelloFresh | (Junior) People Business Partner (all genders) | Verden, Niedersachsen, Germany
+  + HelloFresh | Junior Planning Manager | Derby, England, United Kingdom
+  + HelloFresh | Junior Recipe Developer (all genders) | Berlin, Berlin, Germany
+  + HelloFresh | Logistics Operational Excellence Intern (f/m/x) | Amsterdam, North Holland, Netherlands
+  + HelloFresh | Manager International FSQA (all genders) | Amsterdam, North Holland, Netherlands; Berlin, Berlin, Germany; London, England, United Kingdom; Paris, Paris, France
+  + HelloFresh | Operational Excellence Junior Manager | Derby, England, United Kingdom
+  + HelloFresh | Security Engineer (SOC) (m,f,x)  | Berlin, Berlin, Germany
+  + HelloFresh | Senior BI Analyst, Reporting & BI | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior BI Analyst, Reporting & BI (m/f/x) | Toronto, Ontario, Canada
+  + HelloFresh | Senior Data Scientist, AdTech Tribe, Growth Alliance (f/m/x) | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Data Scientist, Commercial | Toronto, Ontario, Canada
+  + HelloFresh | Senior Data Scientist, Demand Forecasting, Food Systems | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Data Scientist, Growth | Toronto, Ontario, Canada
+  + HelloFresh | Senior Data Scientist, Growth Alliance | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Data Scientist, Growth Alliance (m/f/d) | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Director of Machine Learning Engineering | Berlin, Berlin, Germany
+  + HelloFresh | Senior Machine Learning Engineer, Growth | Toronto, Ontario, Canada
+  + HelloFresh | Senior Machine Learning Product Engineer, Communications, Growth Alliance | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Marketing Data Analyst Pricing (all genders) | Berlin, Berlin, Germany
+  + HelloFresh | Senior Product Manager II, Logistics (all genders)  | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Security Engineer (SOC) (m,f,x)  | Berlin, Berlin, Germany
+  + HelloFresh | Senior Staff Machine Learning Engineer, Menu Personalisation | Warszawa, Masovian Voivodeship, Poland
+  + HelloFresh | Senior Staff Machine Learning Engineer, Menu Personalisation (m,f,x)  | Berlin, Berlin, Germany
+  + HelloFresh | Staff Product Manager, Growth Alliance (all genders) | Toronto, Ontario, Canada
+  + VTEX | Field Marketing Data Analyst | Bucharest
+  + VTEX | Senior Software Engineer, Backend | Brazil
+  + VTEX | Senior Software Engineer, Cloud | Brazil
+  + VTEX | Senior Software Engineer, Frontend | Brazil
+  + VTEX | Senior Software Engineer (SRE), Cloud Compute | Brazil
+  + VTEX | Staff Product Manager, Checkout | Brazil
+  + VTEX | Staff Software Engineer, Backend | Brazil
+  + Wildlife Studios | Creative Strategy Intern  | São Paulo
+  + Wildlife Studios | Data Scientist | São Paulo, Brazil
+  + Wildlife Studios | Product Manager | São Paulo
+  + Wildlife Studios | Senior Data Scientist | São Paulo, Brazil
+  + Wildlife Studios | Senior Software Engineer | Live Games | São Paulo
+  + Wildlife Studios | Wildlife Studios Internship Program - 2027  | São Paulo
+  + Pigment | Business Development/Sales & Growth Marketing North America (6-month Internship) | Paris
+  + Pigment | IT Operations - Workplace (Internship) | Paris
+  + ITELENCE | Transition Manager – Global Transformation | Łódź
+  + DCG | Cybersecurity Specialist | Warszawa
+  + Infolet | Senior Infrastructure Automation Engineer | Kraków
+  + Infolet | Software Engineer | Kraków
+  + DONE&Deliver | Flutter Developer | Warszawa
+  + Andersen Lab | System Analysis Trainee | Warszawa
+  + Andersen Lab | Business Analysis Trainee | Warszawa
+  + CLOUDFIDE | Senior Data Engineer | Warszawa
+  + Xebia | Senior Scala Developer | Wrocław
+  + Unique People | Developer Hurtowni Danych | Wrocław
+  + DONE&Deliver | Data Engineer / Snowflake / Azure | Warszawa
+  + TeamQuest | Fullstack Mobile Developer | Warszawa
+  + Tap.Talent | C++/C#/CAD Software Developer – Shipbuilding | Wrocław
+  + Andersen Lab | Data Engineer in Poland | Warszawa
+  + ITFS | Junior AWS DevOps Engineer | Warszawa
+  + ITFS | Senior AWS Backend Developer | Wrocław
+  + ITFS | Junior AWS Backend Developer | Wrocław
+  + ITELENCE | Power BI Developer | Łódź
+  + Citigroup | Data Scientist and Model Developer | Warszawa
+  + Smart Topaz | Senior Python Developer (Odoo) | Polska
+  + TeamQuest | Junior Konsultant Wdrożeniowy ERP | Wrocław
+  + Power Media | IT Systems Integration Specialist (SQL, ETL) – M/F | Kraków
+  + DCG | Data Scientist | Warszawa
+  + TeamQuest | Junior DevOps Engineer | Warszawa
+  + Integral Solutions | Junior Analityk Biznesowy | Warszawa
+  + Innowise | Paid IT Internship With German | Warszawa
+  + Crustlab | Junior QA Automation Engineer | Kraków
+  + Integral Solutions | Junior Project Manager | Warszawa
+  + Innowise | Backend Internship | Warszawa
+  + Nortal | Product Manager - internal systems | N/A
+  + Nortal | Senior Software Engineer | N/A
+  + Allianz | Analista de Atendimento ao Cliente | Sao Bernardo do Campo, Sao Paulo, Brazil, 09750-730
+  + Allianz | Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain
+  + Allianz | INTERN - GLOBAL OFFICE LEGAL (CORPORATE & REGULATORY) M/F 6 months | Saint-Ouen, Seine-Saint-Denis, France, 93400
+  + Allianz | Intern, Health | Singapore, Singapore, 068897
+  + Allianz | Data Analyst / Internal Auditor (m/f/d) German Desk Property & Casualty / Sales at Allianz SE | Unterföhring (bei München), Germany, 85774
+  + Allianz | Internship, EB Pricing | Kuala Lumpur, Malaysia
+  + Allianz | HR Analytics Intern | Singapore, Singapore, 068897
+  + Allianz | Trainee im Versicherungsmanagement am Standort Leipzig (m/w/d) | Leipzig, Germany, 04317
+  + Allianz | Finance Intern (m/f/d) | Sao Paulo, Sao Paulo, Brazil, 05425-000
+  + Allianz | Internship, Insurance Operations | Kuala Lumpur, Malaysia
+  + Allianz | Auditor Intern | Bucuresti, Bucuresti, Romania, 011017
+  + Allianz | Accounting & Automation Intern | Rotterdam, Netherlands, 3012AG
+  + Allianz | Actuarial Intern | Singapore, Singapore, 068897
+  + Allianz | Operations Intern (m/f/d) | Sao Paulo, Sao Paulo, Brazil, 05425-000
+  + Allianz | Marketing and Communications Intern | Singapore, Singapore, 068897
+  + Allianz | Junior befektetési szakértő | Budapest, Hungary, 1087
+  + Allianz | Internship, Retail Support | Kuala Lumpur, Malaysia
+  + Allianz | Senior Tax Expert (International Tax Planning and Investment) (m/f/d) at Allianz SE | München, Germany, 80802
+  + Allianz | Internal Auditor / Senior Internal Auditor (m/f/d) - German Desk Practice Area Finance & Central Fu | Unterföhring (bei München), Germany, 85774
+  + Allianz | Analista de Crédito Pl. | Brazil
+  + Allianz | Internship, Operations Support, Corporate Clients and Solutions | Kuala Lumpur, Malaysia
+  + Allianz | Internship, AI & Automation | Kuala Lumpur, Malaysia
+  + Allianz | JUNIOR PROPERTY RISK CONSULTANT | Milan, Italy, 20145
+  + Allianz | Consultant/Senior Consultant (m/f/d) - Information Security, Identity Access Management | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | AI & Digitální Inovace - Trainee / Junior Specialista | Praha, Czech Republic, 186 00
+  + Allianz | (Senior) Auditor (f/m/d), Internal Audit - Asset Management | New York, New York, United States, 10019
+  + Allianz | Senior Internal Auditor - 2 year contract(m/f/d)_3201 | Bucharest, Bucuresti, Romania, ROU: 020339
+  + Allianz | Junior Aktuar / Data Scientist (m/w/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Internship, Credit Unit Corporate Business Department | Kuala Lumpur, Malaysia
+  + Allianz | Sales and Service Consultant - International Health | Kingston, Australian Capital Territory, Australia, 2604
+  + Allianz | Jurist als Trainee im Versicherungsmanagement am Standort Köln (m/w/d) | Köln, Germany, 50672
+  + Allianz | Internship - Procurement and data - 6 months F/M | Saint-Ouen, Seine-Saint-Denis, France, 93400
+  + Allianz | Internship, Pricing (Life Insurance) | Kuala Lumpur, Malaysia
+  + Allianz | Internship Opportunity - Medical Officer (Precertification) | Manama, Bahrain
+  + Allianz | H&L Productivity Graduate intern m/f/d | Madrid, Madrid, Spain, 28043
+  + Allianz | Intern (m/f/d) - Allianz Consulting - Management Consulting (Business Transformation) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Jurist als Trainee im Versicherungsmanagement am Standort Unterföhring (m/w/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Security Risk Associate Intern (Information Security) (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Internship Opportunity - Medical Provider Management (MPM) | Manama, Bahrain
+  + Allianz | Internship, Product Development | Kuala Lumpur, Malaysia
+  + Allianz | Internal Audit Expert (m/f/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Internship, Corporate Social Responsibility | Kuala Lumpur, Malaysia
+  + Allianz | Internship, Finance & Accounts, Allianz Life | Kuala Lumpur, Malaysia
+  + Allianz | Intern (m/f/d) - Allianz Services - Data and AI Transformation | Unterföhring (bei München), Germany, 85774
+  + Allianz | Junior Financial Analyst | Sao Bernardo do Campo, Sao Paulo, Brazil, 09750-730
+  + Allianz | (Junior) Actuary mit Schwerpunkt Datenanalyse (m/w/d), befristet | Hamburg, Germany
+  + Allianz | Internal Auditor (m/f/d) - German Desk Practice Area Finance & Central Functions at Allianz SE | Unterföhring (bei München), Germany, 85774
+  + Allianz | Intern - Corporate Strategy and Distribution Growth (6-month internship) | Singapore, Singapore, 068897
+  + Allianz | Internship, Brand & Marketing | Kuala Lumpur, Malaysia
+  + Allianz | Internship, Agency Transformation | Kuala Lumpur, Malaysia
+  + Allianz | Senior Tax Expert International (M&A and Governance) (m/f/d) at Allianz SE | München, Germany, 80802
+  + Allianz | Internship, Bancassurance Operations | Kuala Lumpur, Malaysia
+  + Allianz | Statutory Internal Audit - Contract (Limited to 12 months) | Taipei, Taiwan, 10476
+  + Allianz | Internship, Sustainability | Kuala Lumpur, Malaysia
+  + Allianz | Trainee im Versicherungsmanagement am Standort Köln (m/w/d) | Köln, Germany, 50672
+  + Allianz | Intern in Business Strategy & Transformation (m/f/d) | Sao Paulo, Sao Paulo, Brazil, 05425-000
+  + Allianz | Internal Auditor (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Jurist als Trainee im Versicherungsmanagement am Standort Frankfurt (m/w/d) | Frankfurt, Germany, 60596
+  + Allianz | Trainee im Versicherungsmanagement am Standort Frankfurt (m/w/d) | Frankfurt, Germany, 60596
+  + Allianz | Auditor/a Interno/a Senior | MADRID, Madrid, Spain, 28043
+  + Allianz | Information Security Officer_2758 | KUALA LUMPUR, Federal Territory of Kuala Lumpur, Malaysia, 50470
+  + Allianz | Precertification Junior Assessor | Tunis, Tunisia
+  + Allianz | Internal Review Specialist | Sydney, New South Wales, Australia, 2000
+  + Allianz | Internship, Central Services | Kuala Lumpur, Malaysia
+  + Allianz | Internship, Data Office | Kuala Lumpur, Malaysia
+  + Allianz | Internship, Central Sales Support | Kuala Lumpur, Malaysia
+  + Allianz | Aktuár/ka junior pre životné poistenie | Bratislava, Slovakia, 81109
+  + Allianz | Internal IT Services Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Information Security Solution Architect - Identity & Access Management (m/f/d) | Barcelona, Barcelona, Spain, 08005
+  + Allianz | Information Security Solution Architect - Cloud Security (m/f/d) | Barcelona, Barcelona, Spain, 08005
+  + Allianz | Intern in Project Management (m/f/d) | Frankfurt, Germany, 60325
+  + Allianz | Internship, Content Management | Kuala Lumpur, Malaysia
+  + Allianz | Auditor Intern IT | Bucuresti, Bucuresti, Romania, 011017
+  + Allianz | Executivo de Contas Júnior - Porto Alegre/RS | Porto Alegre, Rio Grande do Sul, Brazil, 90440-191
+  + Allianz | Executivo de Contas Júnior - Filial Vitória/ES | Vitoria, Espírito Santo, Brazil, 29050-335
+  + Allianz | Analista Pianificazione e Controllo | Milan, Italy, 20145
+  + Allianz | Dualer Master mit der SIBE: Junior KI-Referent im Bereich HR-Operations (m/w/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Internship, Actuarial /Pricing, General Insurance Department | Kuala Lumpur, Malaysia
+  + Allianz | Senior Reporting analyst / Data engineer | Sofia- Srebarna 16, Bulgaria
+  + Allianz | Analista Gestão da Informação | Sao Bernardo do Campo, Sao Paulo, Brazil, 09750-730
+  + Allianz | ACDC Governance - Customer Frontend & Reporting Internship (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | AI Platform Engineer (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Controlling Intern - Central Functions (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Intern Global Performance & Rewards (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Local Communications Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Facilities Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Cyber Security Analyst - Vulnerability & Attack Surface Management | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | ACDC Compliance & Audit Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Customer Experience Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Culture & Engagement Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Technical Lead- Integration Developer_3288 | Pune, Maharashtra, India, 411014
+  + Allianz | Intern (Financial Reporting and Treasury Risk Controlling Compliance) (January - June 2027) | Singapore, Singapore, 068897
+  + Allianz | Junior Pricing Actuary | Milan, Italy, 20145
+  + Allianz | Intern (Property & Casualty Underwriting & Client Management) (January - June/July 2027) | Singapore, Singapore, 068897
+  + Allianz | Information Security Solution Architect - AI Security (m/f/d) | Barcelona, Barcelona, Spain, 08005
+  + Allianz | Summer 2027 AIM Hedging Analyst Internship | Fully Onsite | Minneapolis, Minnesota, United States, 55416
+  + Allianz | Intern, Human Resources | Singapore, Singapore, 068897
+  + Allianz | Summer 2027 AIM Hedging Research Analyst Internship | Fully Onsite | Minneapolis, Minnesota, United States, 55416
+  + Allianz | Summer 2027 Actuarial Internship | Fully Onsite | Minneapolis, Minnesota, United States, 55416
+  + Allianz | Lead Cloud Developer- AWS_99512 | Pune, Maharashtra, India
+  + Allianz | Platform Engineering Lead (Architecture, Reliability & Operations) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Essbase Developer | Guildford, England, United Kingdom, GU2 8XG
+  + Allianz | Analyst-Automation | Trivandrum, Kerala, India, 695581
+  + Allianz | Senior Business Analyst, Strategic Transformation | London, United Kingdom, EC2N 3AR
+  + Allianz | Regional Manager Internal Audit-APAC | Pune, Maharashtra, India, 411014
+  + Allianz | Intern (Life & Health Reinsurance Solutions) (January - June 2027) | Singapore, Singapore, 068897
+  + Allianz | Senior Full Stack AI Engineer_D-2979 | Bangkok, Bangkok, Thailand, 10310
+  + Allianz | Intern Events & Visitor Experience - R&D Center Europe (m/f/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Estágio em Subscrição de Transportes | Sao Paulo, Sao Paulo, Brazil, 05425-000
+  + Allianz | Intern - Global Performance & Reward (m/f/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Information Security Program Manager_1570 | Dublin, Ireland, D12 P651
+  + Allianz | Working Student in Information Security (m/f/x) | München, Germany, 81677
+  + Allianz | Commercial Intern (6-12 months) | Hong Kong, China
+  + Allianz | Intern - Office of an Executive Management Team Member (Applications 2 Area) (m/f/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Management Consulting Intern - Allianz Consulting (6 Months Contract) | Singapore, Singapore, 068897
+  + Allianz | Intern Provider Management (Contract Management) (m/f/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Senior Strategic Transformation Project Manager | London, United Kingdom, EC2N 3AR
+  + Allianz | Medior Data Scientist / Machine Learning Engineer | Rotterdam, Netherlands, 3012AG
+  + Allianz | Intern (Reinsurance Accounting) (January - June 2027) | Singapore, Singapore, 068897
+  + Allianz | Head of Internal Audit EU (f/m/d) | München, Germany, 80335
+  + Allianz | Intern in Global Sustainability at Allianz SE (m/f/d) | München, Germany, 80802
+  + Allianz | Senior Golang Software Engineer (all genders) - simplesurance | Lisboa, Portugal, 1700-073
+  + Allianz | Senior Data Engineer | Bucharest, Bucuresti, Romania, ROU: 020339
+  + Allianz | Estagiário/a Operativo/a de Gestão de Cliente (m/f/d) | Lisboa, Portugal, 1069-014
+  + Allianz | IF&IS Governance, Risk & Compliance Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Analista de Precificação Sênior - Automóvel | Rio de Janeiro, Rio de Janeiro, Brazil, 20090-003
+  + Allianz | Apprentices, Interns and Working Students | MADRID, Madrid, Spain, 28043
+  + Allianz | Lead Data Engineer (DevOps/MLOps) | London, England, United Kingdom, SE1 9LQ
+  + Allianz | Intern Quantitative Developer (f/m/d) | PARIS, Paris, France, 75002
+  + Allianz | Intern European Private Credit (f/m/d) | PARIS, Paris, France, 75002
+  + Allianz | Intern Strategic Projects & Executive Office (m/f/d) | München, Germany, 80335
+  + Allianz | Internship Project Management Office (PMO) - Strategic Transformation & M&A (f/m/d) | München, Germany, 80335
+  + Allianz | Architect-Data Engineer | Pune, Maharashtra, India, 411014
+  + Allianz | Information Security Support Specialist (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Estagiário de Finanças | Sao Bernardo do Campo, Sao Paulo, Brazil, 09750-730
+  + Allianz | AI Transformation Lead (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Coordenador(a) de Comunicação Interna, Cultura e Engajamento | Sao Paulo, Sao Paulo, Brazil, 05425-000
+  + Allianz | Junior Business Controller (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | L&D AI & Tech Intern (m/f/d) | BARCELONA, Barcelona, Spain, 08005
+  + Allianz | Intern (m/f/d) - Allianz Services - AI Project Management | Unterföhring (bei München), Germany, 85774
+  + Allianz | Executivo de Contas Júnior - Catanduva/SP e São José do Rio Preto/SP | Sao Jose do Rio Preto, Sao Paulo, Brazil, 15093-340
+  + Allianz | Trainee im Versicherungsmanagement am Standort Unterföhring (m/w/d) | Unterföhring (bei München), Germany, 85774
+  + Allianz | Analista de Atendimento SAC | Sao Bernardo do Campo, Sao Paulo, Brazil, 09750-730
+  + Allianz | Senior Internal Auditor | Dublin, Ireland, D04 Y0606
+  + Allianz | Intern Strategy & Executive Support - AI Factory (m/f/d) | Unterföhring (bei München), Germany, 85774
+
+Results saved to data/pipeline.md and data/scan-history.tsv
+
+→ Run /career-ops pipeline to evaluate new offers.
+→ Share results and get help: https://discord.gg/8pRpHETxa4
